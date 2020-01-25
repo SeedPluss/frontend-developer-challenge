@@ -1,0 +1,24 @@
+.hcenter {
+  text-align: center;
+}
+
+.bcenter {
+  text-align: center;
+  width: 100%;
+}
+.txtcenter {
+  text-align: center;
+}
+
+.txtcenterfot {
+  text-align: center;
+}
+
+.scpb {
+  margin: 0px 15px;
+}
+
+.scpfooter {
+  height: 6em;
+  background-color: darkgray;
+}

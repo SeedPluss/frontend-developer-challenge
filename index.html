@@ -10,31 +10,32 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-5" style="text-align: center;">
+          <h1 class="display-5 hcenter">
             Uma seleção de produtos
           </h1>
-          <h2 class="display-4" style="text-align: center;">
+          <h2 class="display-4 hcenter">
             especial para você
           </h2>
           <br />
-          <div class="nomee">
-            <button type="button" class="btn btn-dark btn-sm" style="">
+          <div class="bcenter">
+            <button type="button" class="btn btn-dark btn-sm scpb">
               Conheça a Linx
             </button>
-            <button type="button" class="btn btn-dark btn-sm">
+            <button type="button" class="btn btn-dark btn-sm scpb">
               Ajude o algoritimo
             </button>
-            <button type="button" class="btn btn-dark btn-sm">
+            <button type="button" class="btn btn-dark btn-sm scpb">
               Seus produtos
             </button>
-            <button type="button" class="btn btn-dark btn-sm">
+            <button type="button" class="btn btn-dark btn-sm scpb">
               Compartilhe
             </button>
           </div>
@@ -42,218 +43,65 @@
       </div>
     </header>
 
-    <div>
+    <div id="nomeBrabo"></div>
+    <br />
+
+    <div class="container txtcenter">
+      <button id="idBrabo" type="button" class="btn btn-secondary btn-lg">
+        Ainda mais produtos aqui!
+      </button>
+    </div>
+    <br />
+
+    <div class="jumbotron jumbotron-fluid bg-white text-dark">
       <div class="container">
-        <div class="row">
-          <div class="col-md">
-            <div class="card-deck">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
+        <h1 class="display-4 txtcenter">Compartilhe a novidade</h1>
+        <p class="lead txtcenter">
+          Quer que seus amigos também ganhem a lista personalizada? Preencha
+          agora!
+        </p>
+        <br />
+        <div class="container">
+          <form>
+            <div class="row">
+              <div class="col-md">
+                <label for="inputnome">Nome do seu amigo:</label>
+                <input
+                  type="text"
+                  id="inputnome"
+                  class="form-control"
+                  placeholder="Nome do seu amigo:"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
               </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
+              <div class="form-group col-md-6">
+                <label for="msgemail">Email do seu amigo:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="msgemail"
+                  placeholder="Email"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                  </p>
-                </div>
               </div>
             </div>
-            <br />
-            <div class="card-deck">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                  </p>
-                </div>
-              </div>
+            <div class="bcenter">
+              <button type="button" class="btn btn-secondary btn-lg">
+                Enviar agora
+              </button>
             </div>
-            <br />
-            <div class="card-deck">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This card has supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src=".../100px200/"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
-    <br />
-    <div class="container">
-      <form>
-        <div class="row">
-          <div class="col-md">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Nome do seu amigo:"
-            />
-          </div>
-          <div class="form-group col-md-6">
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail4"
-              placeholder="Email"
-            />
-          </div>
-        </div>
-        <button type="button" class="btn btn-secondary btn-lg nome">
-          Enviar agora
-        </button>
-      </form>
-    </div>
+
     <footer>
-      <div class="jumbotron jumbotron-fluid nomee">
+      <div class="txtcenter scpfooter">
         <div class="container">
           <p>Testando suas habilidades em Html, CSS e JS</p>
         </div>
       </div>
     </footer>
+
     <script src="./jquery.js"></script>
-    <script>
-      // line break
-      let page
-      const getProduto = () => {
-        $.get(
-          `https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=${page}`,
-          data => {
-            document.getElementById('nomeBrabo').innerHTML = data.products
-              .map(
-                produto =>
-                  `<div>
-                  <div>name: ${produto.name}</div>
-                  <div>oldPrice: ${produto.oldPrice}</div>
-                  <div>price: ${produto.price}</div>
-                  <div>description: ${produto.description}</div>
-                  </div>`
-              )
-              .join('')
-            console.log(data)
-          }
-        )
-      }
-
-      $(document).ready(() => {
-        getProduto()
-      })
-
-      $('#idBrabo').click(() => {
-        page++
-        getProduto(page)
-      })
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
