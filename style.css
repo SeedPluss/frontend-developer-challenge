@@ -32,3 +32,21 @@
 .card-img {
   max-width: 130px;
 }
+
+.btncompra {
+  width: 100%;
+  max-height: 60px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.pnegrito {
+  font-weight: 700;
+  font-size: 16px;
+  color: gray;
+  margin: 0;
+}
+
+.pnomeproduto {
+  color: #888888;
+}

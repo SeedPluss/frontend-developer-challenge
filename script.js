@@ -15,14 +15,14 @@ const getProduto = () => {
                   src="${produto.image}"
                   alt="Card image cap"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">${produto.name}</h5>
+                <div class="card-body pnomeproduto">
+                  <p class="card-title">${produto.name}</p>
                   <p class="card-text display-7">
                   ${produto.description}
                   </p>
                   <p class="card-text display-10">De: R$${produto.oldPrice},99</p>
-                  <p class="card-text display-8">Por: R$${produto.price},99</p>
-                  <button type="button" class="btn btn-secondary btn-lg">
+                  <p class="card-text display-8 pnegrito">Por: R$${produto.price},99</p>
+                  <button type="button" class="btn btn-outline-secondary btn-lg">
                     Comprar
                   </button>
                 </div>
