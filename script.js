@@ -9,9 +9,9 @@ const getProduto = () => {
         .map(
           produto =>
             `
-           <div class="col-sm-3">
+           <div class="col-sm-3 text-center">
                 <img
-                  class="card-img-top"
+                  class="card-img"
                   src="${produto.image}"
                   alt="Card image cap"
                 />

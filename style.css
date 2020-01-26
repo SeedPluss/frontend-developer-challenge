@@ -22,3 +22,11 @@
   height: 6em;
   background-color: darkgray;
 }
+
+.card-body {
+  text-align: left;
+}
+
+.card-img {
+  max-width: 130px;
+}
