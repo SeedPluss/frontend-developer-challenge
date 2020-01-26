@@ -21,6 +21,8 @@
 .scpfooter {
   height: 6em;
   background-color: darkgray;
+  align-items: center;
+  display: flex;
 }
 
 .card-body {
