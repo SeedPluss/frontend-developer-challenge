@@ -1,7 +1,8 @@
+/* Alinhamento de textos */
 .hcenter {
   text-align: center;
 }
-
+/* Alinhamento de botões */
 .bcenter {
   text-align: center;
   width: 100%;
@@ -9,7 +10,7 @@
 .txtcenter {
   text-align: center;
 }
-
+/* Alinhamento de texto footer */
 .txtcenterfot {
   text-align: center;
 }
@@ -24,7 +25,7 @@
   align-items: center;
   display: flex;
 }
-
+/* Alinhamento de imagens e cards*/
 .card-body {
   text-align: left;
 }
@@ -32,14 +33,14 @@
 .card-img {
   max-width: 130px;
 }
-
+/* Posicionamento de botões */
 .btncompra {
   width: 100%;
   max-height: 60px;
   padding: 0px !important;
   margin-top: 10px;
 }
-
+/* Configuração de textos cards */
 .pnegrito {
   font-weight: 700;
   font-size: 16px;

@@ -1,3 +1,7 @@
+Descrição: Um site básico de comprar utilizando API para resgatar os dados dos produtos utilizando bootstrap para um
+melhor visual
+
+
 O que eu fiz e quais ferramentas eu utilizei:
 
 -O que eu consegui:
