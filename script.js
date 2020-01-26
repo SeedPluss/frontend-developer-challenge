@@ -22,7 +22,7 @@ const getProduto = () => {
                   </p>
                   <p class="card-text display-10">De: R$${produto.oldPrice},99</p>
                   <p class="card-text display-8 pnegrito">Por: R$${produto.price},99</p>
-                  <button type="button" class="btn btn-outline-secondary btn-lg">
+                  <button type="button" class="btn btn-outline-secondary btn-lg btncompra">
                     Comprar
                   </button>
                 </div>

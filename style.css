@@ -36,7 +36,7 @@
 .btncompra {
   width: 100%;
   max-height: 60px;
-  padding: 0px;
+  padding: 0px !important;
   margin-top: 10px;
 }
 
