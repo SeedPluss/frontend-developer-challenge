@@ -9,8 +9,7 @@ const getProduto = () => {
         .map(
           produto =>
             `
-           <div class="card-deck">
-            <div class="card">
+           <div class="col-sm-3">
                 <img
                   class="card-img-top"
                   src="${produto.image}"
@@ -27,9 +26,8 @@ const getProduto = () => {
                     Comprar
                   </button>
                 </div>
-              </div>
            </div>
-           <br>
+
               `
         )
         .join('')
