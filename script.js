@@ -10,7 +10,7 @@ const getProduto = () => {
           produto =>
             `
           <div class="container">
-
+           <div class="card-deck">
             <div class="card">
                 <img
                   class="card-img-top"
@@ -29,6 +29,7 @@ const getProduto = () => {
                   </button>
                 </div>
               </div>
+           </div>
           </div>    `
         )
         .join('')
@@ -44,23 +45,3 @@ $('#idBrabo').click(() => {
   page++
   getProduto(page)
 })
-
-function checarEmail() {
-  if (
-    document.forms[0].email.value == '' ||
-    document.forms[0].email.value.indexOf('@') == -1 ||
-    document.forms[0].email.value.indexOf('.') == -1
-  ) {
-    alert('Por favor, informe um E-MAIL válido!')
-    return false
-  }
-}
-
-function verifica() {
-  if (document.forms[0].email.value.length == 0) {
-    alert('Por favor, informe o seu EMAIL.')
-    document.frmEnvia.email.focus()
-    return false
-  }
-  return true
-}
