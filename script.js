@@ -5,11 +5,10 @@ const getProduto = () => {
     `https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=${page}`,
     data => {
       products = [...products, ...data.products]
-      document.getElementById('nomeBrabo').innerHTML = products
+      document.getElementById('card').innerHTML = products
         .map(
           produto =>
             `
-          <div class="container">
            <div class="card-deck">
             <div class="card">
                 <img
@@ -31,7 +30,7 @@ const getProduto = () => {
               </div>
            </div>
            <br>
-          </div>    `
+              `
         )
         .join('')
     }

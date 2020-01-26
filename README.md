@@ -21,8 +21,5 @@ Prioridades de entrega:
     2- API funcionando
     3- Css
 
-Observação: Tenho consciência que dei o meu melhor de mim, neste desafio. Assim meu maior desejo é ser
-aprovado para esse estágio. Pois é o caminho mais concreto para que eu possa ampliar meus conhecimentos
-e me desenvolver profissionalmente.
 
 
