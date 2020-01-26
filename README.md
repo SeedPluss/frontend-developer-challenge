@@ -16,4 +16,9 @@ Ferramentas que eu utilizei:
     - Bootstrap 4 para deixar mais bonito(porém utilizei css para organizar o resto do site)
     - Jquery para utilizar a API, assim não utilizando frameworks para facilitar o processo
 
+Prioridades de entrega:
+    1- Esqueleto do site
+    2- API funcionando
+    3- Css
+
 
