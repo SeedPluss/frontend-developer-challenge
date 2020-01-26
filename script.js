@@ -30,6 +30,7 @@ const getProduto = () => {
                 </div>
               </div>
            </div>
+           <br>
           </div>    `
         )
         .join('')
